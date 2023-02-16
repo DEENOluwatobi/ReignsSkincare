@@ -1,7 +1,9 @@
 import Head from "next/head";
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
+    <Layout>
       <div>
         <Head>
           <title>Reign's Skincare</title>
@@ -13,6 +15,7 @@ export default function Home() {
           <h1>Peep the light show</h1>        
         </main>
       </div>
+    </Layout>
   );
 }
 
