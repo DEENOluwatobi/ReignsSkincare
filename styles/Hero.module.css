@@ -6,24 +6,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px
 }
 .glass{
-    width: 80%;
+    width: 70%;
     height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
-    background: rgba(255, 237, 237, 0.3);
+    background: rgba(244, 201, 201, 0.3);
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2.6px);
-    -webkit-backdrop-filter: blur(2.6px);
+    backdrop-filter: blur(4.6px);
+    -webkit-backdrop-filter: blur(4.6px);
     border: 1px solid rgba(235, 84, 188, 0.3);
 }
 .title{
-    font-size: 2.2em;
+    width: 60%;
+    font-size: 2.5em;
 }
 .subtitle{
     width: 60%;
@@ -49,4 +51,129 @@
 }
 .headBtn:hover{
     box-shadow: 0 4px 30px var(--themeRed);
+}
+.scroll{
+    width: auto;
+    height: 90%;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    background: rgba(244, 201, 201, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.6px);
+    -webkit-backdrop-filter: blur(4.6px);
+    border: 1px solid rgba(235, 84, 188, 0.3);
+    transform: translate3d(0, 0, 0);
+}
+.pic1{
+    background-image: url(../assets/superwhite.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.pic2{
+    background-image: url(../assets/lightsoap.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.pic3{
+    background-image: url(../assets/facecleanser.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.pic4{
+    background-image: url(../assets/extglow.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.pic5{
+    background-image: url(../assets/rs\(14\).jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.pic6{
+    background-image: url(../assets/rs\(10\).jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.pic7{
+    background-image: url(../assets/rs\(6\).jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.pic8{
+    background-image: url(../assets/soaps.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.pic9{
+    background-image: url(../assets/whitelotion.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.pic10{
+    background-image: url(../assets/rs\(8\).jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.scrollitems{
+    animation: moveSlideshow 20s linear infinite;
+}
+@keyframes moveSlideshow {
+    100% { 
+      transform: translateY(-66.6666%);  
+    }
+}
+.socialBtn{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.line{
+    width: 3px;
+    height: 30px;
+    background-color:  rgb(193, 67, 88);
+}
+.facebook,
+.twitter,
+.instagram,
+.whatsapp{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid rgb(193, 67, 88);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.facebook:hover{
+    background-color: rgba(62, 90, 231, 0.408);
+    border: 3px solid var(--gray);
+}
+.twitter:hover{
+    background-color: rgba(71, 84, 231, 0.468);
+    border: 3px solid var(--gray);
+}
+.instagram:hover{
+    background: linear-gradient(45deg,rgba(62, 90, 231, 0.408), rgba(231, 62, 93, 0.408), rgba(217, 231, 62, 0.408));
+    border: 3px solid var(--gray)
+}
+.whatsapp:hover{
+    background-color: rgba(62, 231, 138, 0.408);
+    border: 3px solid var(--gray)
 }
