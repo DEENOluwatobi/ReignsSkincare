@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 6rem;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(1deg, rgba(255, 237, 237,0.85) 0%, rgba(255,255,255,0) 14rem); 
+}
+.container>span{
+    color: var(--themeRed);
+    font-weight: bold;
+}
+.social{
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+.social>*{
+    fill: var(--themeRed);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .5rem;
+}
+.logo>span{
+    font-size: .8em;
+    font-weight: bold;
+}

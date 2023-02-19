@@ -9,7 +9,7 @@ export default function Header() {
             {/* logo */}
             <div className={css.logo}>
                 <Image src={Logo} alt='' width={50} height={50}/>
-                <span>Reign's<br/>Skincare</span>
+                <span>Reigns<br/>Skincare</span>
             </div>
 
             {/* menu */}
