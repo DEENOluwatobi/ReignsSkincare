@@ -6,9 +6,9 @@ export default function Home() {
     <Layout>
       <div>
         <Head>
-          <title>Reign's Skincare</title>
+          <title>Reigns Skincare</title>
           <meta name="description" content="Reign's Skincare" />
-          <link rel="icon" href="/Logo.png" />
+          <link rel="icon" href='Logo.png' />
         </Head>
         {/* body */}
         <main>
