@@ -1,3 +1,50 @@
 .header{
-    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .5rem;
+}
+.logo>span{
+    font-size: .8em;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    justify-content: center;
+    z-index: 99;
+}
+.menu>li:hover{
+    cursor: pointer;
+    color: var(--themeRed);
+}
+.rightSide{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+.cart{
+    position: relative;
+    cursor: pointer;
+}
+.badge{
+    position: absolute;
+    top: 0;
+    left: -5;
+    display: flex;
+    background-color: var(--themeRed);
+    color: white;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    font-size: .8em;
+    justify-content: center;
+    align-items: center;
 }
