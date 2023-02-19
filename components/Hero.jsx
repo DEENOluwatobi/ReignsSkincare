@@ -9,7 +9,7 @@ export default function Hero() {
                     <span>Reigns Skincare</span>
                 </h1>
                 <p className={css.subtitle}>
-                    Unleash the Radiant and Confident You with Reigns Skincare 
+                    Unleash the Radiant and Confident You with <span>Reigns Skincare </span>  
                     Range of Premium Skincare Products, Specially Formulated to Nourish, 
                     Protect and Revitalize Your Skin.
                 </p>
