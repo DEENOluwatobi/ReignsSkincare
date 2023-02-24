@@ -1,4 +1,6 @@
 import css from '../styles/Hero.module.css'
+import Image from 'next/image'
+import Delivery from '../assets/s2.png'
 import { UilFacebook, UilInstagram, UilTwitter, UilWhatsapp } from '@iconscout/react-unicons'
 
 export default function Hero() {
@@ -35,6 +37,13 @@ export default function Hero() {
                 <button className={css.headBtn}>
                     Order now
                 </button>
+
+                <div className={css.deliverycon}>
+                    <p className={css.deliverytext}>Fast Delivery</p>
+                    <div className={css.deliveryimg}>
+                        <Image src={Delivery} alt='' width={25} height={25}/>
+                    </div>
+                </div>
            </div>
 
            <div className={css.scroll}>
