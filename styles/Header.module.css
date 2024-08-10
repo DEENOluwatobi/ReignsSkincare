@@ -20,6 +20,7 @@
     gap: 2rem;
     justify-content: center;
     z-index: 99;
+    margin-right: 10px;
 }
 .menu>li:hover{
     cursor: pointer;
