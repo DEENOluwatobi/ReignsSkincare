@@ -1,7 +1,7 @@
-import css from '../styles/Footer.module.css'
+import css from '../../styles/Footer.module.css'
 import { UilFacebook, UilInstagram, UilTwitter } from '@iconscout/react-unicons'
 import Image from 'next/image'
-import Logo from '../assets/Logo.png'
+import Logo from '../../assets/Logo.png'
 
 export default function Footer() {
     return(

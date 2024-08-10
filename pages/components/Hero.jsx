@@ -1,6 +1,6 @@
-import css from '../styles/Hero.module.css'
+import css from '../../styles/Hero.module.css'
 import Image from 'next/image'
-import Delivery from '../assets/s2.png'
+import Delivery from '../../assets/s2.png'
 import { UilFacebook, UilInstagram, UilTwitter, UilWhatsapp } from '@iconscout/react-unicons'
 
 export default function Hero() {

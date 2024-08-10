@@ -1,6 +1,6 @@
-import css from '../styles/Header.module.css'
+import css from '../../styles/Header.module.css'
 import Image from 'next/image'
-import Logo from '../assets/Logo.png'
+import Logo from '../../assets/Logo.png'
 import { UilShoppingBag } from '@iconscout/react-unicons'
 
 export default function Header() {
